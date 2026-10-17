@@ -1,0 +1,36 @@
+# Compiled C++ files
+*.exe
+*.o
+*.obj
+*.out
+
+# Passenger and admin credentials
+users.txt
+admin.txt
+
+# Booking and activity databases
+bookings.txt
+activities.txt
+
+# Local train database (created by the program)
+trains.txt
+
+# Temporary and backup databases
+*_backup.txt
+*_temp.txt
+
+# Local backup files
+main_backup.cpp
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
+
+# VS Code local settings
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
